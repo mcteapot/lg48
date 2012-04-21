@@ -132,7 +132,6 @@
 		E255F2C115435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2B615435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m */; };
 		E255F2C215435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2B815435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m */; };
 		E255F2C51543549E007D9AFD /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2C41543549E007D9AFD /* MainMenu.m */; };
-		E255F2C715436DAD007D9AFD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E255F2C615436DAD007D9AFD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -391,7 +390,6 @@
 		E255F2B815435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedJoystickExample.m; sourceTree = "<group>"; };
 		E255F2C31543549E007D9AFD /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		E255F2C41543549E007D9AFD /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
-		E255F2C615436DAD007D9AFD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,7 +446,6 @@
 		E255F12A1543459E007D9AFD /* ld48 */ = {
 			isa = PBXGroup;
 			children = (
-				E255F2C615436DAD007D9AFD /* README.md */,
 				E255F2A1154352A1007D9AFD /* Classes */,
 				E255F12B1543459E007D9AFD /* Resources */,
 				E255F13F1543459E007D9AFD /* libs */,
@@ -919,7 +916,6 @@
 				E255F1391543459E007D9AFD /* Icon.png in Resources */,
 				E255F13B1543459E007D9AFD /* Icon@2x.png in Resources */,
 				E255F13E1543459E007D9AFD /* iTunesArtwork in Resources */,
-				E255F2C715436DAD007D9AFD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
