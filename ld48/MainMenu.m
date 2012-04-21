@@ -1,17 +1,15 @@
 //
-//  HelloWorldLayer.m
+//  MainMenu.m
 //  ld48
 //
 //  Created by arjun prakash on 4/21/12.
-//  Copyright CyborgDino 2012. All rights reserved.
+//  Copyright 2012 CyborgDino. All rights reserved.
 //
 
+#import "MainMenu.h"
 
-// Import the interfaces
-#import "HelloWorldLayer.h"
 
-// HelloWorldLayer implementation
-@implementation HelloWorldLayer
+@implementation MainMenu
 
 +(CCScene *) scene
 {
@@ -19,7 +17,7 @@
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	HelloWorldLayer *layer = [HelloWorldLayer node];
+	MainMenu *layer = [MainMenu node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
@@ -36,11 +34,11 @@
 	if( (self=[super init])) {
 		
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
-
+		CCLabelTTF *label = [CCLabelTTF labelWithString:@"GAME MENU" fontName:@"Marker Felt" fontSize:64];
+        
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-	
+        
 		// position the label on the center of the screen
 		label.position =  ccp( size.width /2 , size.height/2 );
 		
@@ -61,3 +59,4 @@
 	[super dealloc];
 }
 @end
+

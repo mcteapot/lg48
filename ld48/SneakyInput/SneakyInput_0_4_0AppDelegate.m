@@ -1,17 +1,16 @@
 //
-//  AppDelegate.m
-//  ld48
+//  SneakyInput_0_4_0AppDelegate.m
+//  SneakyInput 0.4.0
 //
-//  Created by arjun prakash on 4/21/12.
-//  Copyright CyborgDino 2012. All rights reserved.
+//  Created by Nick Pannuto on 12/3/10.
+//  Copyright Sneakyness, llc. 2010. All rights reserved.
 //
 
-
-#import "AppDelegate.h"
+#import "SneakyInput_0_4_0AppDelegate.h"
 #import "cocos2d.h"
-#import "GameScene.h"
+#import "HelloWorldScene.h"
 
-@implementation AppDelegate
+@implementation SneakyInput_0_4_0AppDelegate
 
 @synthesize window;
 
@@ -36,12 +35,10 @@
 	CCDirector *director = [CCDirector sharedDirector];
 	
 	// Sets landscape mode
-	[director setDeviceOrientation:kCCDeviceOrientationPortrait];
+	[director setDeviceOrientation:kCCDeviceOrientationLandscapeLeft];
 	
 	// Turn on display FPS
-#if DEBUG
 	[director setDisplayFPS:YES];
-#endif
 	
 	// Turn on multiple touches
 	EAGLView *view = [director openGLView];
@@ -52,7 +49,8 @@
 	// You can change anytime.
 	[CCTexture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888];	
 	
-	[[CCDirector sharedDirector] runWithScene: [GameScene scene]];
+		
+	[[CCDirector sharedDirector] runWithScene: [HelloWorld scene]];
 }
 
 
@@ -66,14 +64,6 @@
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
 	[[CCDirector sharedDirector] purgeCachedData];
-}
-
--(void) applicationDidEnterBackground:(UIApplication*)application {
-	[[CCDirector sharedDirector] stopAnimation];
-}
-
--(void) applicationWillEnterForeground:(UIApplication*)application {
-	[[CCDirector sharedDirector] startAnimation];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
