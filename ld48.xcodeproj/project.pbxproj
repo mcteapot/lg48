@@ -131,7 +131,14 @@
 		E255F2C015435428007D9AFD /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2B415435428007D9AFD /* SneakyJoystickSkinnedBase.m */; };
 		E255F2C115435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2B615435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m */; };
 		E255F2C215435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2B815435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m */; };
-		E255F2C51543549E007D9AFD /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2C41543549E007D9AFD /* MainMenu.m */; };
+		E255F2C51543549E007D9AFD /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2C41543549E007D9AFD /* MainMenuScene.m */; };
+		E255F2CA1543750C007D9AFD /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E255F2C91543750C007D9AFD /* MainMenuLayer.m */; };
+		E255F2DA1543B03F007D9AFD /* mainMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E255F2D71543B03E007D9AFD /* mainMenuBackground.png */; };
+		E255F2DB1543B03F007D9AFD /* startButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = E255F2D81543B03E007D9AFD /* startButtonDown.png */; };
+		E255F2DC1543B03F007D9AFD /* startButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = E255F2D91543B03F007D9AFD /* startButtonUp.png */; };
+		E255F2E21543B903007D9AFD /* robot.plist in Resources */ = {isa = PBXBuildFile; fileRef = E255F2E01543B903007D9AFD /* robot.plist */; };
+		E255F2E31543B903007D9AFD /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = E255F2E11543B903007D9AFD /* robot.png */; };
+		E255F2E51543BBA4007D9AFD /* mainMenuBackgroundGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = E255F2E41543BBA3007D9AFD /* mainMenuBackgroundGlow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -388,8 +395,16 @@
 		E255F2B615435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedDPadExample.m; sourceTree = "<group>"; };
 		E255F2B715435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedJoystickExample.h; sourceTree = "<group>"; };
 		E255F2B815435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedJoystickExample.m; sourceTree = "<group>"; };
-		E255F2C31543549E007D9AFD /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
-		E255F2C41543549E007D9AFD /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		E255F2C31543549E007D9AFD /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		E255F2C41543549E007D9AFD /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		E255F2C81543750C007D9AFD /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
+		E255F2C91543750C007D9AFD /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
+		E255F2D71543B03E007D9AFD /* mainMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainMenuBackground.png; path = Resources/Artwork/mainMenuBackground.png; sourceTree = "<group>"; };
+		E255F2D81543B03E007D9AFD /* startButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startButtonDown.png; path = Resources/Artwork/startButtonDown.png; sourceTree = "<group>"; };
+		E255F2D91543B03F007D9AFD /* startButtonUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startButtonUp.png; path = Resources/Artwork/startButtonUp.png; sourceTree = "<group>"; };
+		E255F2E01543B903007D9AFD /* robot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = robot.plist; path = Resources/Artwork/robot.plist; sourceTree = "<group>"; };
+		E255F2E11543B903007D9AFD /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot.png; path = Resources/Artwork/robot.png; sourceTree = "<group>"; };
+		E255F2E41543BBA3007D9AFD /* mainMenuBackgroundGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainMenuBackgroundGlow.png; path = Resources/Artwork/mainMenuBackgroundGlow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,7 +472,7 @@
 		E255F12B1543459E007D9AFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E255F29D15434ABD007D9AFD /* game */,
+				E255F29D15434ABD007D9AFD /* Images */,
 				E255F29B15434A9E007D9AFD /* defaults */,
 			);
 			name = Resources;
@@ -791,18 +806,22 @@
 			name = defaults;
 			sourceTree = "<group>";
 		};
-		E255F29D15434ABD007D9AFD /* game */ = {
+		E255F29D15434ABD007D9AFD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E255F2E71543BBC5007D9AFD /* Singles */,
+				E255F2DD1543B853007D9AFD /* Texture Atlas */,
+				E255F2CC154379EA007D9AFD /* Buttons */,
+				E255F2CB154379E1007D9AFD /* Backgrounds */,
 			);
-			name = game;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		E255F2A1154352A1007D9AFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E255F2A3154353F8007D9AFD /* middleware */,
-				E255F2A2154352B6007D9AFD /* game */,
+				E255F2A3154353F8007D9AFD /* Middleware */,
+				E255F2A2154352B6007D9AFD /* Game */,
 				E255F27C154345A1007D9AFD /* AppDelegate.h */,
 				E255F27D154345A1007D9AFD /* AppDelegate.m */,
 				E255F285154345A1007D9AFD /* GameConfig.h */,
@@ -810,23 +829,25 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		E255F2A2154352B6007D9AFD /* game */ = {
+		E255F2A2154352B6007D9AFD /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				E255F2C31543549E007D9AFD /* MainMenu.h */,
-				E255F2C41543549E007D9AFD /* MainMenu.m */,
+				E255F2C31543549E007D9AFD /* MainMenuScene.h */,
+				E255F2C41543549E007D9AFD /* MainMenuScene.m */,
+				E255F2C81543750C007D9AFD /* MainMenuLayer.h */,
+				E255F2C91543750C007D9AFD /* MainMenuLayer.m */,
 				E255F29E15434F36007D9AFD /* GameScene.h */,
 				E255F29F15434F36007D9AFD /* GameScene.m */,
 			);
-			name = game;
+			name = Game;
 			sourceTree = "<group>";
 		};
-		E255F2A3154353F8007D9AFD /* middleware */ = {
+		E255F2A3154353F8007D9AFD /* Middleware */ = {
 			isa = PBXGroup;
 			children = (
 				E255F2A415435428007D9AFD /* SneakyInput */,
 			);
-			name = middleware;
+			name = Middleware;
 			sourceTree = "<group>";
 		};
 		E255F2A415435428007D9AFD /* SneakyInput */ = {
@@ -854,6 +875,40 @@
 				E255F2B815435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m */,
 			);
 			path = SneakyInput;
+			sourceTree = "<group>";
+		};
+		E255F2CB154379E1007D9AFD /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E255F2D71543B03E007D9AFD /* mainMenuBackground.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		E255F2CC154379EA007D9AFD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E255F2D81543B03E007D9AFD /* startButtonDown.png */,
+				E255F2D91543B03F007D9AFD /* startButtonUp.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		E255F2DD1543B853007D9AFD /* Texture Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				E255F2E01543B903007D9AFD /* robot.plist */,
+				E255F2E11543B903007D9AFD /* robot.png */,
+			);
+			name = "Texture Atlas";
+			sourceTree = "<group>";
+		};
+		E255F2E71543BBC5007D9AFD /* Singles */ = {
+			isa = PBXGroup;
+			children = (
+				E255F2E41543BBA3007D9AFD /* mainMenuBackgroundGlow.png */,
+			);
+			name = Singles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -916,6 +971,12 @@
 				E255F1391543459E007D9AFD /* Icon.png in Resources */,
 				E255F13B1543459E007D9AFD /* Icon@2x.png in Resources */,
 				E255F13E1543459E007D9AFD /* iTunesArtwork in Resources */,
+				E255F2DA1543B03F007D9AFD /* mainMenuBackground.png in Resources */,
+				E255F2DB1543B03F007D9AFD /* startButtonDown.png in Resources */,
+				E255F2DC1543B03F007D9AFD /* startButtonUp.png in Resources */,
+				E255F2E21543B903007D9AFD /* robot.plist in Resources */,
+				E255F2E31543B903007D9AFD /* robot.png in Resources */,
+				E255F2E51543BBA4007D9AFD /* mainMenuBackgroundGlow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1033,7 +1094,8 @@
 				E255F2C015435428007D9AFD /* SneakyJoystickSkinnedBase.m in Sources */,
 				E255F2C115435428007D9AFD /* SneakyJoystickSkinnedDPadExample.m in Sources */,
 				E255F2C215435428007D9AFD /* SneakyJoystickSkinnedJoystickExample.m in Sources */,
-				E255F2C51543549E007D9AFD /* MainMenu.m in Sources */,
+				E255F2C51543549E007D9AFD /* MainMenuScene.m in Sources */,
+				E255F2CA1543750C007D9AFD /* MainMenuLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

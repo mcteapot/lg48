@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 #import "cocos2d.h"
 #import "GameScene.h"
+#import "MainMenuScene.h"
 
 @implementation AppDelegate
 
@@ -52,7 +53,7 @@
 	// You can change anytime.
 	[CCTexture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888];	
 	
-	[[CCDirector sharedDirector] runWithScene: [GameScene scene]];
+	[[CCDirector sharedDirector] runWithScene: [MainMenuScene scene]];
 }
 
 

@@ -6,10 +6,10 @@
 //  Copyright 2012 CyborgDino. All rights reserved.
 //
 
-#import "MainMenu.h"
+#import "MainMenuScene.h"
 
 
-@implementation MainMenu
+@implementation MainMenuScene
 
 +(CCScene *) scene
 {
@@ -17,7 +17,7 @@
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	MainMenu *layer = [MainMenu node];
+	MainMenuScene *layer = [MainMenuScene node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
@@ -39,11 +39,19 @@
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
         
+        [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGB565];
+        CCSprite *bg = [CCSprite spriteWithFile:@"mainMenuBackground.png"];
+        bg.anchorPoint = ccp(0,0);
+        [self addChild:bg z:-1];
+/*        
 		// position the label on the center of the screen
 		label.position =  ccp( size.width /2 , size.height/2 );
 		
 		// add the label as a child to this Layer
 		[self addChild: label];
+ */       
+        MainMenuLayer * mainMenuLayer = [MainMenuLayer node];
+        [self addChild:mainMenuLayer z:5];
 	}
 	return self;
 }
